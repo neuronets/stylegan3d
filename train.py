@@ -38,7 +38,7 @@ if 1:
     # Dataset.
     # desc+= '-mixing'
 
-    desc += '-mri';     dataset = EasyDict(tfrecord_dir='ixi-256');                 train.mirror_augment = False
+    desc += '-mri';     dataset = EasyDict(tfrecord_dir='ixi-128');                 train.mirror_augment = False
     # desc += '-test-d'
 
     # desc += '-ffhq';     dataset = EasyDict(tfrecord_dir='ffhq');                 train.mirror_augment = True
